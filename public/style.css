@@ -1,0 +1,56 @@
+html {
+  background: url("img/shop.jpg") center / cover no-repeat;
+  height: 100vh;
+  font-size: 10px;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  background: rgb(0, 0, 0, .8);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header a, header p {
+  font-size: 3rem;
+  color: white;
+  margin-right: 20px;
+}
+.container {
+  background: rgb(20, 20, 20);
+  margin: 100px 400px;
+  border: 10px solid rgb(168, 66, 2);
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+img{
+  height: 200px;
+}
+h1 {
+  margin-left: 50px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5rem;
+  color: white;
+  flex: 2;
+}
+.options{
+  display: flex;
+  flex-flow: column;
+  font-size: 4rem;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .5rem;
+}
+input {
+  font-size: 2rem;
+}
+.size {
+  font-size: 2rem;
+}
